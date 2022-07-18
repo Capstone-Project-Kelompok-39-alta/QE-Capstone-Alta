@@ -1,8 +1,24 @@
 C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\Pages\RegisterPage.java
+<<<<<<< HEAD
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\UploadInvoiceStep.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\Pages\HistoryEmailPage.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\LogoutStep.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\LoginStep.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\InvoiceDetailStep.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\RegisterStep.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\TransactionDetailStep.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\DeleteHistoryEmailStep.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\Pages\DashboardPage.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\Pages\TransactionPage.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\CucumberTestSuite.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\InvoiceSendStep.java
+C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\Pages\InvoicePage.java
+=======
 C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\CucumberTestSuite.java
 C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\LogoutStep.java
 C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\LoginStep.java
 C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\StepDefinitions\RegisterStep.java
 C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\Pages\DashboardPage.java
+>>>>>>> 66261f626544a4923fd30e5fafcd10e6130251fe
 C:\Users\user\Documents\WEBCapstone\src\test\java\Utils\General.java
 C:\Users\user\Documents\WEBCapstone\src\test\java\Starter\Pages\LoginPage.java

@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+Starter\StepDefinitions\InvoiceDetailStep.class
+Starter\Pages\HistoryEmailPage.class
+Starter\Pages\InvoicePage.class
+Starter\Pages\LoginPage.class
+Starter\Pages\DashboardPage.class
+Starter\StepDefinitions\LogoutStep.class
+Starter\StepDefinitions\TransactionDetailStep.class
+Starter\StepDefinitions\InvoiceSendStep.class
+Starter\StepDefinitions\RegisterStep.class
+Starter\Pages\RegisterPage.class
+Utils\General.class
+Starter\StepDefinitions\DeleteHistoryEmailStep.class
+Starter\StepDefinitions\LoginStep.class
+Starter\StepDefinitions\CucumberTestSuite.class
+Starter\Pages\TransactionPage.class
+=======
 Starter\Pages\RegisterPage.class
 Utils\General.class
 Starter\StepDefinitions\LoginStep.class
@@ -6,3 +23,4 @@ Starter\StepDefinitions\CucumberTestSuite.class
 Starter\Pages\DashboardPage.class
 Starter\StepDefinitions\LogoutStep.class
 Starter\StepDefinitions\RegisterStep.class
+>>>>>>> 66261f626544a4923fd30e5fafcd10e6130251fe

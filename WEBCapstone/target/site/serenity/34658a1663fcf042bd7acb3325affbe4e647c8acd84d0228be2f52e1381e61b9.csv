@@ -1,2 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
+<<<<<<< HEAD
+"History Email","History Email Scenario","SUCCESS","2022-07-18T23:42:52.27425+07:00[Asia/Jakarta]","0.0","13.27"
+=======
 "Register","Register Scenario","ERROR","2022-07-15T22:09:47.7937518+07:00[Asia/Jakarta]","0.0","19.5"
+>>>>>>> 66261f626544a4923fd30e5fafcd10e6130251fe
