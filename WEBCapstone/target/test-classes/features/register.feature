@@ -16,5 +16,5 @@
 #
 #    Examples:
 #    |namalengkap|nips|emails|passwords|results|
-#    |imamrayhanekadinata|1233212244|imamrayhane@gmail.com|rayhangantenk|login page|
-#  |                   |          |                     |             |register page|
+##    |imamrayhanekadinata|1233212244|imamrayhane@gmail.com|rayhangantenk|login page|
+#    |                   |          |                     |             |register page|

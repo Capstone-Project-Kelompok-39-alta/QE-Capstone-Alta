@@ -40,10 +40,11 @@ public class LoginStep {
     }
         @Then("I get the {string} result")
         public void iGetThe(String result) {
-            if (result.equals("dashboard page")){
+            if (result.equals("dashboard page")) {
                 dashboardPage.headerAppears();
                 dashboardPage.headerTextEqual();
-            }else {
+                loginPage.openUrl("https://profound-chaja-c7a5cb.netlify.app/dashboard");
+            } else if (result.equals("login page")) {
                 loginPage.headerAppears();
                 loginPage.headerTextEqual();
             }

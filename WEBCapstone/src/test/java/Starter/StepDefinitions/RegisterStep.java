@@ -7,7 +7,6 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import net.thucydides.core.annotations.Step;
 import net.thucydides.core.annotations.Steps;
 
 public class RegisterStep {
@@ -52,10 +51,9 @@ public class RegisterStep {
     @Then("I get the {string} results")
     public void iGetThe(String result) {
         if (result.equals("login page")){
-            loginPage.openUrl("https://profound-chaja-c7a5cb.netlify.app/");
-        }else {
             registerPage.headerAppears();
             registerPage.headerTextEqual();
+            loginPage.openUrl("https://profound-chaja-c7a5cb.netlify.app/");
         }
     }
 }

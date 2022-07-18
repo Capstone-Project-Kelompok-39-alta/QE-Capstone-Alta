@@ -8,9 +8,8 @@ import org.openqa.selenium.By;
 public class LoginPage extends PageObject {
 
     private By ErrorMessageLogin(){
-        { return By.xpath("//*[@class = 'mt-2 fs-5']");}
+        { return By.xpath("//*[@class = 'text-center text-login text-danger']");}
     }
-
     private By nipField() {
         return By.xpath("//*[@id='inputNip']");
     }
@@ -48,6 +47,7 @@ public class LoginPage extends PageObject {
     public void clickLoginButton() {
         $(loginButton()).click();
     }
+    @Step
     public boolean headerAppears(){
         return $(ErrorMessageLogin()).isDisplayed();
     }
@@ -55,5 +55,4 @@ public class LoginPage extends PageObject {
     public boolean headerTextEqual(){
         return $(ErrorMessageLogin()).getText().equals("frontend-capstone-alta-vue");
     }
-
 }

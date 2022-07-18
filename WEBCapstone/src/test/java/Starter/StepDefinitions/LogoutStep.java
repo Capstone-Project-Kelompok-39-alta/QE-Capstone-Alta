@@ -39,6 +39,7 @@ public class LogoutStep {
     @And("I get to dashboard page")
     public void iGetToDashboardPage(){
         dashboardPage.headerTextEqual();
+        loginPage.openUrl("https://profound-chaja-c7a5cb.netlify.app/dashboard");
     }
 
     @And("click profile button")
