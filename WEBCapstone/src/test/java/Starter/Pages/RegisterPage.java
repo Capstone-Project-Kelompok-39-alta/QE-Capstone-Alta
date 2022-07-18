@@ -16,8 +16,13 @@ public class RegisterPage extends PageObject {
     String emails;
     String passwords;
 
+<<<<<<< HEAD
     private By Message(){
         { return By.xpath("//*[@class = 'text-center text-regist text-regist-success']");}
+=======
+    private By ErrorMessage(){
+        { return By.xpath("//*[@class = 'mt-2 fs-5']");}
+>>>>>>> 66261f626544a4923fd30e5fafcd10e6130251fe
     }
 
     private By namalengkapField() {
@@ -52,11 +57,19 @@ public class RegisterPage extends PageObject {
 
     @Step
     public boolean headerAppears(){
+<<<<<<< HEAD
         return $(Message()).isDisplayed();
     }
     @Step
     public boolean headerTextEqual(){
         return $(Message()).getText().equals("frontend-capstone-alta-vue");
+=======
+        return $(ErrorMessage()).isDisplayed();
+    }
+    @Step
+    public boolean headerTextEqual(){
+        return $(ErrorMessage()).getText().equals("frontend-capstone-alta-vue");
+>>>>>>> 66261f626544a4923fd30e5fafcd10e6130251fe
     }
 
     @Step
