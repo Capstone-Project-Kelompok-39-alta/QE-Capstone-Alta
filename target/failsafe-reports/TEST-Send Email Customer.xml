@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Send Email Customer" time="2.615" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Send Email Customer" time="4.439" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Ani\AppData\Local\Temp\surefire1625894524246048068 2022-07-21T17-45-54_616-jvmRun1 surefire15998934146111751706tmp surefire_06746078764559687962tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Ani\AppData\Local\Temp\surefire18134278600204901871 2022-07-21T18-53-08_375-jvmRun1 surefire11322536951841718420tmp surefire_07303454351202909083tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\test-classes;C:\Users\Ani\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Ani\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Ani\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-core\2.4.51\serenity-core-2.4.51.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-model\2.4.51\serenity-model-2.4.51.jar;C:\Users\Ani\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\Ani\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\Ani\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\Ani\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Ani\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Ani\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Ani\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Ani\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Ani\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Ani\.m2\repository\com\google\inject\guice\5.0.1\guice-5.0.1.jar;C:\Users\Ani\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Ani\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Ani\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Ani\.m2\repository\com\thoughtworks\xstream\xstream\1.4.17\xstream-1.4.17.jar;C:\Users\Ani\.m2\repository\io\github\x-stream\mxparser\1.2.1\mxparser-1.2.1.jar;C:\Users\Ani\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Ani\.m2\repository\io\cucumber\cucumber-core\6.10.2\cucumber-core-6.10.2.jar;C:\Users\Ani\.m2\repository\io\cucumber\cucumber-gherkin\6.10.2\cucumber-gherkin-6.10.2.jar;C:\Users\Ani\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.2\cucumber-gherkin-messages-6.10.2.jar;C:\Users\Ani\.m2\repository\io\cucumber\messages\14.0.1\messages-14.0.1.jar;C:\Users\Ani\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\Ani\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Ani\.m2\repository\io\cucumber\cucumber-plugin\6.10.2\cucumber-plugin-6.10.2.jar;C:\Users\Ani\.m2\repository\io\cucumber\docstring\6.10.2\docstring-6.10.2.jar;C:\Users\Ani\.m2\repository\io\cucumber\html-formatter\12.0.0\html-formatter-12.0.0.jar;C:\Users\Ani\.m2\repository\io\cucumber\create-meta\3.0.0\create-meta-3.0.0.jar;C:\Users\Ani\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\Ani\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\Ani\.m2\repository\org\awaitility\awaitility\4.0.3\awaitility-4.0.3.jar;C:\Users\Ani\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Ani\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\Ani\.m2\repository\org\asciidoctor\asciidoctorj\2.5.1\asciidoctorj-2.5.1.jar;C:\Users\Ani\.m2\repository\org\asciidoctor\asciidoctorj-api\2.5.1\asciidoctorj-api-2.5.1.jar;C:\Users\Ani\.m2\repository\org\jruby\jruby\9.2.17.0\jruby-9.2.17.0.jar;C:\Users\Ani\.m2\repository\org\jruby\jruby-core\9.2.17.0\jruby-core-9.2.17.0.jar;C:\Users\Ani\.m2\repository\com\github\jnr\jnr-netdb\1.2.0\jnr-netdb-1.2.0.jar;C:\Users\Ani\.m2\repository\com\github\jnr\jnr-enxio\0.32.3\jnr-enxio-0.32.3.jar;C:\Users\Ani\.m2\repository\com\github\jnr\jnr-unixsocket\0.38.5\jnr-unixsocket-0.38.5.jar;C:\Users\Ani\.m2\repository\com\github\jnr\jnr-posix\3.1.4\jnr-posix-3.1.4.jar;C:\Users\Ani\.m2\repository\com\github\jnr\jnr-constants\0.10.1\jnr-constants-0.10.1.jar;C:\Users\Ani\.m2\repository\com\github\jnr\jffi\1.3.1\jffi-1.3.1.jar;C:\Users\Ani\.m2\repository\com\github\jnr\jffi\1.3.1\jffi-1.3.1-native.jar;C:\Users\Ani\.m2\repository\org\jruby\joni\joni\2.1.31\joni-2.1.31.jar;C:\Users\Ani\.m2\repository\org\jruby\jcodings\jcodings\1.0.46\jcodings-1.0.46.jar;C:\Users\Ani\.m2\repository\org\jruby\dirgra\0.3\dirgra-0.3.jar;C:\Users\Ani\.m2\repository\com\headius\invokebinder\1.11\invokebinder-1.11.jar;C:\Users\Ani\.m2\repository\com\headius\options\1.4\options-1.4.jar;C:\Users\Ani\.m2\repository\com\jcraft\jzlib\1.1.3\jzlib-1.1.3.jar;C:\Users\Ani\.m2\repository\com\martiansoftware\nailgun-server\0.9.1\nailgun-server-0.9.1.jar;C:\Users\Ani\.m2\repository\com\headius\backport9\1.8\backport9-1.8.jar;C:\Users\Ani\.m2\repository\javax\annotation\javax.annotation-api\1.3.1\javax.annotation-api-1.3.1.jar;C:\Users\Ani\.m2\repository\org\jruby\jruby-stdlib\9.2.17.0\jruby-stdlib-9.2.17.0.jar;C:\Users\Ani\.m2\repository\net\bytebuddy\byte-buddy\1.11.1\byte-buddy-1.11.1.jar;C:\Users\Ani\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.1\byte-buddy-agent-1.11.1.jar;C:\Users\Ani\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-reports\2.4.51\serenity-reports-2.4.51.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-stats\2.4.51\serenity-stats-2.4.51.jar;C:\Users\Ani\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.0\kotlin-stdlib-1.5.0.jar;C:\Users\Ani\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Ani\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.0\kotlin-stdlib-common-1.5.0.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-reports-configuration\2.4.51\serenity-reports-configuration-2.4.51.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\Ani\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\Ani\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\Ani\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\Ani\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\Ani\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\Ani\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\Ani\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\Ani\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\Ani\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\Ani\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\Ani\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\Ani\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-report-resources\2.4.51\serenity-report-resources-2.4.51.jar;C:\Users\Ani\.m2\repository\com\google\code\gson\gson\2.8.7\gson-2.8.7.jar;C:\Users\Ani\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.4\jackson-core-2.12.4.jar;C:\Users\Ani\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.4\jackson-databind-2.12.4.jar;C:\Users\Ani\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.4\jackson-annotations-2.12.4.jar;C:\Users\Ani\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Ani\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Ani\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Ani\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ani\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Ani\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Ani\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Ani\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Ani\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Ani\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.47.1\htmlunit-2.47.1.jar;C:\Users\Ani\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Ani\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Ani\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.47.0\htmlunit-core-js-2.47.0.jar;C:\Users\Ani\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.47.1\neko-htmlunit-2.47.1.jar;C:\Users\Ani\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\Ani\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Ani\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.7.0\htmlunit-cssparser-1.7.0.jar;C:\Users\Ani\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Ani\.m2\repository\com\shapesecurity\salvation2\3.0.0\salvation2-3.0.0.jar;C:\Users\Ani\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.36.v20210114\websocket-client-9.4.36.v20210114.jar;C:\Users\Ani\.m2\repository\org\eclipse\jetty\jetty-client\9.4.36.v20210114\jetty-client-9.4.36.v20210114.jar;C:\Users\Ani\.m2\repository\org\eclipse\jetty\jetty-http\9.4.36.v20210114\jetty-http-9.4.36.v20210114.jar;C:\Users\Ani\.m2\repository\org\eclipse\jetty\jetty-util\9.4.36.v20210114\jetty-util-9.4.36.v20210114.jar;C:\Users\Ani\.m2\repository\org\eclipse\jetty\jetty-io\9.4.36.v20210114\jetty-io-9.4.36.v20210114.jar;C:\Users\Ani\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.36.v20210114\websocket-common-9.4.36.v20210114.jar;C:\Users\Ani\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.36.v20210114\websocket-api-9.4.36.v20210114.jar;C:\Users\Ani\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Ani\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.47.1\htmlunit-driver-2.47.1.jar;C:\Users\Ani\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\Ani\.m2\repository\io\appium\java-client\7.5.1\java-client-7.5.1.jar;C:\Users\Ani\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\Ani\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\Ani\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Ani\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\Ani\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\Ani\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Ani\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Ani\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\Ani\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.1\webdrivermanager-4.4.1.jar;C:\Users\Ani\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Ani\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Ani\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\Ani\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Ani\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Ani\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\Ani\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\Ani\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\Ani\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\Ani\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\Ani\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Ani\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Ani\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\Ani\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Ani\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Ani\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-junit\2.4.51\serenity-junit-2.4.51.jar;C:\Users\Ani\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.4.51\serenity-rest-assured-2.4.51.jar;C:\Users\Ani\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Ani\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-screenplay\2.4.51\serenity-screenplay-2.4.51.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-screenplay-rest\2.4.51\serenity-screenplay-rest-2.4.51.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-cucumber6\2.4.51\serenity-cucumber6-2.4.51.jar;C:\Users\Ani\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.4.51\serenity-screenplay-webdriver-2.4.51.jar;C:\Users\Ani\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\Ani\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Ani\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\Users\Ani\.m2\repository\io\cucumber\datatable-matchers\3.4.0\datatable-matchers-3.4.0.jar;C:\Users\Ani\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\Ani\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Ani\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\Ani\.m2\repository\io\rest-assured\rest-assured\4.3.2\rest-assured-4.3.2.jar;C:\Users\Ani\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Ani\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Ani\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\Ani\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Ani\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Ani\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Ani\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Ani\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Ani\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Ani\.m2\repository\org\codehaus\groovy\groovy\3.0.6\groovy-3.0.6.jar;C:\Users\Ani\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.6\groovy-xml-3.0.6.jar;C:\Users\Ani\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Ani\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Ani\.m2\repository\org\assertj\assertj-core\3.6.2\assertj-core-3.6.2.jar;C:\Users\Ani\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Ani\.m2\repository\com\github\javafaker\javafaker\0.15\javafaker-0.15.jar;C:\Users\Ani\.m2\repository\org\yaml\snakeyaml\1.20\snakeyaml-1.20-android.jar;C:\Users\Ani\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Ani\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -58,12 +58,231 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="As admin I want to send Email to Customer" classname="Send Email Customer" time="2.615">
+  <testcase name="As admin I want to send Email to Customer" classname="Send Email Customer" time="4.439">
     <system-out><![CDATA[
+
+7
+ Scenarios (
+&amp#27;[32m7 passed&amp#27;[0m
+)
+
+33
+ Steps (
+&amp#27;[32m33 passed&amp#27;[0m
+)
+
+1m
+38.183s
+
+
+
+
+
+18:55:29.830 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+
+18:55:30.967 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+
+18:55:31.331 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 7 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@d9b7968
+
+18:55:31.683 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Get User:As admin I want to Get User By Id
+
+18:55:31.684 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d9b7968: Generating report for test outcome: Get User:As admin I want to Get User By Id
+
+18:55:31.748 [pool-2-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As admin I want to Get User By Id to file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\e381dc2ff72e2f5521a2f8e78f055f0b9dcbab9452aa84324013262e0e23a3fe.json (using temp file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\e381dc2ff72e2f5521a2f8e78f055f0b9dcbab9452aa84324013262e0e23a3fe.jsonb9b2e7f8-19bd-4f2a-8340-d5c76979c121)
+
+18:55:31.845 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As Admin I want to upload file csv for Invoice
+
+18:55:31.845 [pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d9b7968: Generating report for test outcome: Invoice:As Admin I want to upload file csv for Invoice
+
+18:55:31.890 [pool-2-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As Admin I want to upload file csv for Invoice to file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\6d0a27db195009d73b5be9571c1919f42cb2c584bdcd758180a451b1ad8a1c42.json (using temp file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\6d0a27db195009d73b5be9571c1919f42cb2c584bdcd758180a451b1ad8a1c42.json99d5b55b-25a5-4eed-975c-470cfbf95607)
+
+18:55:32.524 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Get User:As admin I want to Get User By Id done
+
+18:55:32.528 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As admin I want to Get All Invoice
+
+18:55:32.529 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d9b7968: Generating report for test outcome: Invoice:As admin I want to Get All Invoice
+
+18:55:32.551 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As Admin I want to upload file csv for Invoice done
+
+18:55:32.551 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As admin I want to Get Invoice by Id
+
+18:55:32.551 [pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d9b7968: Generating report for test outcome: Invoice:As admin I want to Get Invoice by Id
+
+18:55:32.556 [pool-2-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As admin I want to Get Invoice by Id to file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\155fb6c318cbe1e3eaa525b6b42600cdd53472097efad45e0d6c94ec34e456a3.json (using temp file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\155fb6c318cbe1e3eaa525b6b42600cdd53472097efad45e0d6c94ec34e456a3.json8e9a8d81-2945-4149-803e-7fc71c866b34)
+
+18:55:32.594 [pool-2-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As admin I want to Get All Invoice to file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\0fe06f8c021e438ac4e5fbcdb9e9d944ceee3f546cf1c79b585c840d9664b944.json (using temp file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\0fe06f8c021e438ac4e5fbcdb9e9d944ceee3f546cf1c79b585c840d9664b944.json9957857a-92db-4c8c-b05b-5a01ad5159dd)
+
+18:55:32.846 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As admin I want to Get Invoice by Id done
+
+18:55:32.846 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login:POST - As admin I want to login with valid idpegawai and password
+
+18:55:32.847 [pool-2-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d9b7968: Generating report for test outcome: Login:POST - As admin I want to login with valid idpegawai and password
+
+18:55:32.848 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As admin I want to Get All Invoice done
+
+18:55:32.849 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Register:As Admin I have be able to create new user with valid data
+
+18:55:32.850 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d9b7968: Generating report for test outcome: Register:As Admin I have be able to create new user with valid data
+
+18:55:32.885 [pool-2-thread-2] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for POST - As admin I want to login with valid idpegawai and password to file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\09103872fd0d475ab66f7ae176bea73b33e948f72819db451e583f8b8ec07a20.json (using temp file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\09103872fd0d475ab66f7ae176bea73b33e948f72819db451e583f8b8ec07a20.json78d3386d-bb91-4c76-9ec2-2b268f02bb3d)
+
+18:55:33.048 [pool-2-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As Admin I have be able to create new user with valid data to file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\e1435c1e98494d7ef7efea9b3ac077cec6e0952bf6fb280822c3ace2dba78966.json (using temp file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\e1435c1e98494d7ef7efea9b3ac077cec6e0952bf6fb280822c3ace2dba78966.jsonc2ce6d85-82e2-4633-bdf9-db395bd8192b)
+
+18:55:33.501 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Register:As Admin I have be able to create new user with valid data done
+
+18:55:33.501 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Send Email Customer:As admin I want to send Email to Customer
+
+18:55:33.501 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@d9b7968: Generating report for test outcome: Send Email Customer:As admin I want to send Email to Customer
+
+18:55:33.508 [pool-2-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As admin I want to send Email to Customer to file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\7ba310faa42ca3522e0442bc4227c841f2a03e995062ae153d4617e669993f1b.json (using temp file C:\Users\Ani\IdeaProjects\automationApi-Capstone\target\site\serenity\7ba310faa42ca3522e0442bc4227c841f2a03e995062ae153d4617e669993f1b.json618fed87-1d28-4578-bf51-e7847acb43e5)
+
+18:55:33.520 [pool-2-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login:POST - As admin I want to login with valid idpegawai and password done
+
+18:55:33.530 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Send Email Customer:As admin I want to send Email to Customer done
+
+18:55:33.530 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+
+18:55:33.531 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 2199 ms
+
+18:55:33.531 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 7 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@22ce5ae
+
+18:55:33.547 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Get User:As admin I want to Get User By Id
+
+18:55:33.548 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@22ce5ae: Generating report for test outcome: Get User:As admin I want to Get User By Id
+
+18:55:33.549 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As Admin I want to upload file csv for Invoice
+
+18:55:33.550 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@22ce5ae: Generating report for test outcome: Invoice:As Admin I want to upload file csv for Invoice
+
+18:55:34.304 [pool-3-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Get User
+
+18:55:34.448 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Get User
+
+18:55:34.506 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Invoice
+
+18:55:34.548 [pool-3-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Invoice
+
+18:55:34.637 [pool-3-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Login
+
+18:55:34.700 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Login
+
+18:55:34.813 [pool-3-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Register
+
+18:55:34.818 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Register
+
+18:55:34.834 [pool-3-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Send Email Customer
+
+18:55:34.849 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature Send Email Customer
+
+18:55:35.031 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As Admin I want to upload file csv for Invoice-[]: Optional[Requirement{name='Invoice', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:35.070 [pool-3-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As admin I want to Get User By Id-[]: Optional[Requirement{name='Get User', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:35.093 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As Admin I want to upload file csv for Invoice-[]: Optional[Requirement{name='Invoice', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:35.120 [pool-3-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As admin I want to Get User By Id-[]: Optional[Requirement{name='Get User', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:36.123 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in 6d0a27db195009d73b5be9571c1919f42cb2c584bdcd758180a451b1ad8a1c42.html
+
+18:55:43.639 [pool-3-thread-2] DEBUG serenity.reporting - Generated report 6d0a27db195009d73b5be9571c1919f42cb2c584bdcd758180a451b1ad8a1c42.html in 7516 ms
+
+18:55:43.640 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As Admin I want to upload file csv for Invoice done
+
+18:55:43.641 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As admin I want to Get All Invoice
+
+18:55:43.643 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@22ce5ae: Generating report for test outcome: Invoice:As admin I want to Get All Invoice
+
+18:55:43.771 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As admin I want to Get All Invoice-[]: Optional[Requirement{name='Invoice', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:43.780 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As admin I want to Get All Invoice-[]: Optional[Requirement{name='Invoice', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:43.796 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in 0fe06f8c021e438ac4e5fbcdb9e9d944ceee3f546cf1c79b585c840d9664b944.html
+
+18:55:44.959 [pool-3-thread-2] DEBUG serenity.reporting - Generated report 0fe06f8c021e438ac4e5fbcdb9e9d944ceee3f546cf1c79b585c840d9664b944.html in 1163 ms
+
+18:55:44.960 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As admin I want to Get All Invoice done
+
+18:55:44.960 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As admin I want to Get Invoice by Id
+
+18:55:44.961 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@22ce5ae: Generating report for test outcome: Invoice:As admin I want to Get Invoice by Id
+
+18:55:44.983 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As admin I want to Get Invoice by Id-[]: Optional[Requirement{name='Invoice', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:44.994 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As admin I want to Get Invoice by Id-[]: Optional[Requirement{name='Invoice', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:45.070 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in 155fb6c318cbe1e3eaa525b6b42600cdd53472097efad45e0d6c94ec34e456a3.html
+
+18:55:45.470 [pool-3-thread-2] DEBUG serenity.reporting - Generated report 155fb6c318cbe1e3eaa525b6b42600cdd53472097efad45e0d6c94ec34e456a3.html in 400 ms
+
+18:55:45.470 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Invoice:As admin I want to Get Invoice by Id done
+
+18:55:45.471 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login:POST - As admin I want to login with valid idpegawai and password
+
+18:55:45.476 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@22ce5ae: Generating report for test outcome: Login:POST - As admin I want to login with valid idpegawai and password
+
+18:55:45.564 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome POST - As admin I want to login with valid idpegawai and password-[]: Optional[Requirement{name='Login', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:45.581 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome POST - As admin I want to login with valid idpegawai and password-[]: Optional[Requirement{name='Login', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:45.593 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in 09103872fd0d475ab66f7ae176bea73b33e948f72819db451e583f8b8ec07a20.html
+
+18:55:46.014 [pool-3-thread-2] DEBUG serenity.reporting - Generated report 09103872fd0d475ab66f7ae176bea73b33e948f72819db451e583f8b8ec07a20.html in 421 ms
+
+18:55:46.014 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Login:POST - As admin I want to login with valid idpegawai and password done
+
+18:55:46.015 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Register:As Admin I have be able to create new user with valid data
+
+18:55:46.015 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@22ce5ae: Generating report for test outcome: Register:As Admin I have be able to create new user with valid data
+
+18:55:46.054 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As Admin I have be able to create new user with valid data-[]: Optional[Requirement{name='Register', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:46.361 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As Admin I have be able to create new user with valid data-[]: Optional[Requirement{name='Register', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:46.541 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in e1435c1e98494d7ef7efea9b3ac077cec6e0952bf6fb280822c3ace2dba78966.html
+
+18:55:47.402 [pool-3-thread-2] DEBUG serenity.reporting - Generated report e1435c1e98494d7ef7efea9b3ac077cec6e0952bf6fb280822c3ace2dba78966.html in 861 ms
+
+18:55:47.434 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Register:As Admin I have be able to create new user with valid data done
+
+18:55:47.434 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Send Email Customer:As admin I want to send Email to Customer
+
+18:55:47.434 [pool-3-thread-2] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@22ce5ae: Generating report for test outcome: Send Email Customer:As admin I want to send Email to Customer
+
+18:55:47.448 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As admin I want to send Email to Customer-[]: Optional[Requirement{name='Send Email Customer', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:47.499 [pool-3-thread-2] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome As admin I want to send Email to Customer-[]: Optional[Requirement{name='Send Email Customer', type='feature' parent = 'Admin', cardNumber='null'}]
+
+18:55:47.516 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in 7ba310faa42ca3522e0442bc4227c841f2a03e995062ae153d4617e669993f1b.html
+
+18:55:47.785 [pool-3-thread-2] DEBUG serenity.reporting - Generated report 7ba310faa42ca3522e0442bc4227c841f2a03e995062ae153d4617e669993f1b.html in 269 ms
+
+18:55:47.786 [pool-3-thread-2] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Send Email Customer:As admin I want to send Email to Customer done
+
+18:55:51.914 [pool-3-thread-1] DEBUG serenity.reporting - Generating report in e381dc2ff72e2f5521a2f8e78f055f0b9dcbab9452aa84324013262e0e23a3fe.html
+
+18:55:52.178 [pool-3-thread-1] DEBUG serenity.reporting - Generated report e381dc2ff72e2f5521a2f8e78f055f0b9dcbab9452aa84324013262e0e23a3fe.html in 264 ms
+
+18:55:52.179 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Get User:As admin I want to Get User By Id done
+
+18:55:52.179 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+
+18:55:52.179 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 18647 ms
+
+18:55:55.023 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Ani/IdeaProjects/automationApi-Capstone/src/test/resources/features/admin/GetUserById.feature
+
+18:55:55.061 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Ani/IdeaProjects/automationApi-Capstone/src/test/resources/features/admin/Invoice.feature
+
+18:55:55.080 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Ani/IdeaProjects/automationApi-Capstone/src/test/resources/features/admin/Login.feature
+
+18:55:55.127 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Ani/IdeaProjects/automationApi-Capstone/src/test/resources/features/admin/Register.feature
+
+18:55:55.150 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Ani/IdeaProjects/automationApi-Capstone/src/test/resources/features/admin/SendCustomer.feature
+
+
 @SendEmail
 Scenario: As admin I want to send Email to Customer              &amp#27;[90m# src/test/resources/features/admin/SendCustomer.feature:4&amp#27;[0m
-17:47:01.845 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Ani/IdeaProjects/automationApi-Capstone/src/test/resources/features/admin/SendCustomer.feature
-17:47:01.875 [pool-2-thread-1] INFO  - 
+18:55:25.451 [pool-2-thread-1] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Ani/IdeaProjects/automationApi-Capstone/src/test/resources/features/admin/SendCustomer.feature
+18:55:25.484 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -71,24 +290,24 @@ Scenario: As admin I want to send Email to Customer              &amp#27;[90m# s
 
 As admin I want to send Email to Customer(send-email-customer;as-admin-i-want-to-send-email-to-customer)
 --------------------------------------------------------------------------------
-17:47:02.049 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SendCustomerSteps.adminSuccessAuthUsingNewUserForSendEmail - Admin success auth using new user for send email
-17:47:02.668 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin success auth using new user for send email
+18:55:25.924 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SendCustomerSteps.adminSuccessAuthUsingNewUserForSendEmail - Admin success auth using new user for send email
+18:55:26.918 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin success auth using new user for send email
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mAdmin success auth using new user for send email&amp#27;[0m         &amp#27;[90m# starter.stepdefinitions.admin.SendCustomerSteps.adminSuccessAuthUsingNewUserForSendEmail()&amp#27;[0m
-17:47:02.692 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SendCustomerSteps.adminSetPOSTApiEndpointForSendEmail - Admin set POST api endpoint for send email
-17:47:02.693 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin set POST api endpoint for send email
+18:55:27.201 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SendCustomerSteps.adminSetPOSTApiEndpointForSendEmail - Admin set POST api endpoint for send email
+18:55:27.204 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin set POST api endpoint for send email
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mAdmin set POST api endpoint for send email&amp#27;[0m                &amp#27;[90m# starter.stepdefinitions.admin.SendCustomerSteps.adminSetPOSTApiEndpointForSendEmail()&amp#27;[0m
-17:47:02.711 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SendCustomerSteps.adminSendPOSTHTTPRequestForSendEmail - Admin send POST HTTP request for send email
-17:47:02.726 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Post.adminSendPostHttpForSendEmail - Admin set POST api endpoint for send email
-17:47:02.737 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin set POST api endpoint for send email
-17:47:04.144 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin send POST HTTP request for send email
+18:55:27.250 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SendCustomerSteps.adminSendPOSTHTTPRequestForSendEmail - Admin send POST HTTP request for send email
+18:55:27.414 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Post.adminSendPostHttpForSendEmail - Admin set POST api endpoint for send email
+18:55:27.415 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin set POST api endpoint for send email
+18:55:29.316 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin send POST HTTP request for send email
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mAdmin send POST HTTP request for send email&amp#27;[0m                &amp#27;[90m# starter.stepdefinitions.admin.SendCustomerSteps.adminSendPOSTHTTPRequestForSendEmail()&amp#27;[0m
-17:47:04.169 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SendCustomerSteps.adminReceiveValidHTTPResponseCodeForSendEmail - Admin receive valid HTTP response code 201 for send email
-17:47:04.176 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin receive valid HTTP response code 201 for send email
+18:55:29.341 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SendCustomerSteps.adminReceiveValidHTTPResponseCodeForSendEmail - Admin receive valid HTTP response code 201 for send email
+18:55:29.346 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin receive valid HTTP response code 201 for send email
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mAdmin receive valid HTTP response code &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m&amp#27;[32m for send email&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.admin.SendCustomerSteps.adminReceiveValidHTTPResponseCodeForSendEmail(int)&amp#27;[0m
-17:47:04.216 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SendCustomerSteps.adminReceiveDetailForSendEmail - Admin receive detail for send email
-17:47:04.342 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin receive detail for send email
+18:55:29.386 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SendCustomerSteps.adminReceiveDetailForSendEmail - Admin receive detail for send email
+18:55:29.715 [pool-2-thread-1] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Admin receive detail for send email
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mAdmin receive detail for send email&amp#27;[0m                        &amp#27;[90m# starter.stepdefinitions.admin.SendCustomerSteps.adminReceiveDetailForSendEmail()&amp#27;[0m
-17:47:04.352 [pool-2-thread-1] INFO  - 
+18:55:29.740 [pool-2-thread-1] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |

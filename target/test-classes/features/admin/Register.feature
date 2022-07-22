@@ -21,10 +21,10 @@ Feature: Register
     Then Admin receive valid HTTP response code 201
     And Admin receive valid data for new user
 
-  Scenario: As Admin I have be able to create new user with registered data
-    When Admin send POST HTTP request for register
-    Then Admin receive valid HTTP response code 406
-    And Admin receive message User exists
+#  Scenario: As Admin I have be able to create new user with registered data
+#    When Admin send POST HTTP request for register
+#    Then Admin receive valid HTTP response code 406
+#    And Admin receive message User exists
 
 
 

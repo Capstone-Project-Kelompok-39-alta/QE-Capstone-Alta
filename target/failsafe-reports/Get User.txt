@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Get User
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.569 s - in Get User
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 67.499 s - in Get User

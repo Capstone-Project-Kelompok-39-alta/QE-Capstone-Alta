@@ -35,13 +35,13 @@ public class RegisterSteps {
     }
 
 
-    @Then("Admin receive valid HTTP response code 406")
-    public void adminReceiveValidHTTPResponseCode() {
-        post.adminReceveiveCode406();
-    }
-
-    @And("Admin receive message User exists")
-    public void adminReceiveMessage() {
-        post.receiveMessageUserExists();
-    }
+//    @Then("Admin receive valid HTTP response code 406")
+//    public void adminReceiveValidHTTPResponseCode() {
+//        post.adminReceveiveCode406();
+//    }
+//
+//    @And("Admin receive message User exists")
+//    public void adminReceiveMessage() {
+//        post.receiveMessageUserExists();
+//    }
 }

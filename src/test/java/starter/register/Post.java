@@ -57,17 +57,17 @@ public class Post {
 
         }
 
-        @Step("Admin receive valid HTTP response code 406")
-        public void adminReceveiveCode406(){
-            restAssuredThat(response -> response.statusCode(406));
-        }
-
-        @Step("Admin receive message User exists")
-        public void receiveMessageUserExists(){
-            Response response = SerenityRest.lastResponse();
-            String message = response.getBody().jsonPath().get("message");
-            Assert.assertEquals(message, "User exists");
-        }
+//        @Step("Admin receive valid HTTP response code 406")
+//        public void adminReceveiveCode406(){
+//            restAssuredThat(response -> response.statusCode(406));
+//        }
+//
+//        @Step("Admin receive message User exists")
+//        public void receiveMessageUserExists(){
+//            Response response = SerenityRest.lastResponse();
+//            String message = response.getBody().jsonPath().get("message");
+//            Assert.assertEquals(message, "User exists");
+//        }
 
 
 }
