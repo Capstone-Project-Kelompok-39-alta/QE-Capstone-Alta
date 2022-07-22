@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get User","As admin I want to Get User By Id","SUCCESS","2022-07-21T17:46:19.6875683-08:00[GMT-08:00]","0.0","28.93"
+"Invoice","As Admin I want to upload file csv for Invoice","SUCCESS","2022-07-21T17:46:49.5043881-08:00[GMT-08:00]","0.0","4.3"
+"Invoice","As admin I want to Get All Invoice","SUCCESS","2022-07-21T17:46:53.8862513-08:00[GMT-08:00]","0.0","1.64"
+"Invoice","As admin I want to Get Invoice by Id","SUCCESS","2022-07-21T17:46:55.6012489-08:00[GMT-08:00]","0.0","1.46"
+"Login","POST - As admin I want to login with valid idpegawai and password","SUCCESS","2022-07-21T17:46:57.6602546-08:00[GMT-08:00]","0.0","0.79"
+"Register","As Admin I have be able to create new user with valid data","SUCCESS","2022-07-21T17:46:58.6232512-08:00[GMT-08:00]","0.0","1.68"
+"Send Email Customer","As admin I want to send Email to Customer","SUCCESS","2022-07-21T17:47:01.875257-08:00[GMT-08:00]","0.0","2.48"
