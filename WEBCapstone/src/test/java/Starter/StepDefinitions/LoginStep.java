@@ -40,7 +40,6 @@ public class LoginStep {
     }
         @Then("I get the {string} result")
         public void iGetThe(String result) {
-<<<<<<< HEAD
             if (result.equals("dashboard page")) {
                 dashboardPage.headerAppears();
                 dashboardPage.headerTextEqual();
@@ -48,11 +47,6 @@ public class LoginStep {
             } else if (result.equals("login page")) {
                 loginPage.headerAppears();
                 loginPage.headerTextEqual();
-=======
-            if (result.equals("dashboard page")){
-                dashboardPage.headerAppears();
-                dashboardPage.headerTextEqual();
->>>>>>> 66261f626544a4923fd30e5fafcd10e6130251fe
             }
         }
 }

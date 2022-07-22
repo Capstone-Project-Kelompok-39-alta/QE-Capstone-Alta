@@ -13,6 +13,10 @@ public class InvoicePage extends PageObject {
 
     private By SendButton() { return By.xpath("//*[@class = 'btn btn-primary px-3']");}
 
+    private By ConfirmSendButton() { return By.xpath("//*[@class = 'btn btn-primary']");}
+
+    private By CancelSendButton() { return By.xpath("//*[@class = 'btn btn-secondary me-5']");}
+
     private By homeHeader(){
         { return By.xpath("//*[@id='app']/div/div/div[2]");}
     }
@@ -42,4 +46,15 @@ public class InvoicePage extends PageObject {
 
         $(SendButton()).click();
     }
+
+    public void clickConfirmSendButton(){
+
+        $(ConfirmSendButton()).click();
+    }
+
+    public void clickCancelSendButton(){
+
+        $(CancelSendButton()).click();
+    }
+
 }

@@ -2,7 +2,7 @@
 Feature: History Email
   As a admin
   I want to access history email that i send to user
-  So that I can look success or not send to user
+  So that I can delete if history email user is full
 
 
   Scenario Outline: History Email Scenario
