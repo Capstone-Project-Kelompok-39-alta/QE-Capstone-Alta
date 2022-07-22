@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Invoice","As Admin I want to upload file csv for Invoice","SUCCESS","2022-07-21T18:55:03.0771221-08:00[GMT-08:00]","0.0","5.76"
-"Invoice","As admin I want to Get All Invoice","SUCCESS","2022-07-21T18:55:09.0351788-08:00[GMT-08:00]","0.0","5.99"
-"Invoice","As admin I want to Get Invoice by Id","SUCCESS","2022-07-21T18:55:15.2672496-08:00[GMT-08:00]","0.0","3.35"
