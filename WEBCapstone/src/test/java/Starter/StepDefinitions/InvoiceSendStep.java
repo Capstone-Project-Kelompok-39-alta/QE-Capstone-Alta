@@ -57,6 +57,11 @@ public class InvoiceSendStep {
         invoicePage.clickSendButton();
     }
 
+    @And("click confirm send invoice button")
+    public void clickSendConfirmInvoice() {
+        invoicePage.clickConfirmSendButton();
+    }
+
     @Then("I validate the {string} Results")
     public void iGetTheResults(String result) {
         if (result.equals("invoice page")) {
