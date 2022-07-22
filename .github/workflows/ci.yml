@@ -2,9 +2,9 @@ name: API Automation Java + Maven
 
 on:
   push:
-    branches: [ main ]
+    branches: [ api ]
   pull request:
-    branches: [ main ]
+    branches: [ api ]
 
 
 jobs:
