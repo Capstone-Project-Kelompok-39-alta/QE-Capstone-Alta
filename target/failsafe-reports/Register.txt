@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: Register
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.722 s <<< FAILURE! - in Register
+Register.As Admin I to create new user with registered data  Time elapsed: 1.702 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> but was <201>.
+
+
+Register.As Admin I have to create new user with null data  Time elapsed: 0.751 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[code=400, message=Unmarshal type error: expected=int, got=string, field=id_pegawai, offset=40, internal=json: cannot unmarshal string into Go struct field Admin.id_pegawai of type int]> but was:<[Internal Server Error]>
+

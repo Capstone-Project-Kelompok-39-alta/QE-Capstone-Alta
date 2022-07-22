@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: Invoice
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 15.586 s <<< FAILURE! - in Invoice
+Invoice.As Admin I want to Upload CSV without login  Time elapsed: 0.918 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <404>.
+
+
+Invoice.As Admin I want to Upload CSV without send file csv  Time elapsed: 1.749 s  <<< ERROR!
+java.lang.RuntimeException: Some exception during recording fields
+Caused by: java.io.FileNotFoundException: 
+

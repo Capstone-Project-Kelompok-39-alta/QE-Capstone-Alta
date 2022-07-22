@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Login
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.067 s <<< FAILURE! - in Login
+Login.As admin I want to login with unregistered data  Time elapsed: 1.516 s  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<bad request>
+

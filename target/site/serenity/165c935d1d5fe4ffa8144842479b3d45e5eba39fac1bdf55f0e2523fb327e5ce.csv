@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register","As Admin I have be able to create new user with valid data","SUCCESS","2022-07-21T23:18:24.8806585-08:00[GMT-08:00]","0.0","1.19"
+"Register","As Admin I to create new user with registered data","FAILURE","2022-07-21T23:18:26.1106566-08:00[GMT-08:00]","0.0","1.68"
+"Register","As Admin I have to create new user with null data","FAILURE","2022-07-21T23:18:27.8326565-08:00[GMT-08:00]","0.0","0.76"

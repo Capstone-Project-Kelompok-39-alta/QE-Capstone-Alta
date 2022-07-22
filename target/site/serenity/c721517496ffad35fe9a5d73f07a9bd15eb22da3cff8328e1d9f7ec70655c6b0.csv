@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","POST - As admin I want to login with valid idpegawai and password","SUCCESS","2022-07-21T23:18:15.7996553-08:00[GMT-08:00]","0.0","2.6"
+"Login","As admin I want to login with valid idpegawai and invalid password","SUCCESS","2022-07-21T23:18:18.4456574-08:00[GMT-08:00]","0.0","1.88"
+"Login","As As admin I want to login with invalid idpegawai and valid password","SUCCESS","2022-07-21T23:18:20.3576605-08:00[GMT-08:00]","0.0","1.82"
+"Login","As admin I want to login with null idpegawai and password","SUCCESS","2022-07-21T23:18:22.2396594-08:00[GMT-08:00]","0.0","1.05"
+"Login","As admin I want to login with unregistered data","FAILURE","2022-07-21T23:18:23.3406592-08:00[GMT-08:00]","0.0","1.48"

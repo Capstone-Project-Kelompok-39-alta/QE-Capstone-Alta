@@ -1,0 +1,13 @@
+starter\stepdefinitions\admin\SendCustomerSteps.class
+starter\stepdefinitions\admin\LoginSteps.class
+starter\getuserbyid\Get.class
+starter\invoice\GetAll.class
+starter\login\Post.class
+starter\sendcustomer\Post.class
+starter\stepdefinitions\admin\RegisterSteps.class
+starter\invoice\Post.class
+starter\CucumberTestSuite.class
+starter\stepdefinitions\admin\GetUserByIdSteps.class
+starter\stepdefinitions\admin\InvoiceSteps.class
+starter\register\Post.class
+starter\invoice\GetById.class

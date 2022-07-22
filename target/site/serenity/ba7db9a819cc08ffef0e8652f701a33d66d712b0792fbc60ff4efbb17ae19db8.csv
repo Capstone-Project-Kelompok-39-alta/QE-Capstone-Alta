@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Invoice","As Admin I want to Upload CSV without login","FAILURE","2022-07-21T23:18:10.4306614-08:00[GMT-08:00]","0.0","1.32"
+"Invoice","As Admin I want to Upload CSV without send file csv","ERROR","2022-07-21T23:18:11.8076609-08:00[GMT-08:00]","0.0","1.72"
